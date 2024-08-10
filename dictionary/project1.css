@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #16115be4;
+}
+h1{
+  text-align: center;
+  color: #fff;
+}
+.container{
+  margin: 30% auto;
+  position: relative;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#word, #word:active{
+  border: none;
+  border-bottom: 2px solid #16115be4;
+  padding: 5px;
+}
+#search-btn{
+  padding: 8px;
+  font: bold 18px lucida;
+  background-color: #16115be4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+h3{
+  margin-left: 5px;
+  font-family: Times New Roman;
+  margin-bottom: 10px;
+}
+.phonics{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#trans{
+  font:italic 16px tahoma;
+}
+.meaning{
+  border: 1px solid #16115be4;
+  padding: 5px 10px 5px 2px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.example{
+    font: italic 15px tahoma;
+    border:none;
+    border-left: 2px solid #16115be4;
+    padding-left: 5px;
+}
